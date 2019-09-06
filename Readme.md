@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Nika Borovkova](https://up.htmlacademy.ru/htmlcss/26/user/1116839).
-* Наставник: [Дмитрий Вашкевич)].
+* Наставник: [Дмитрий Вашкевич)](https://htmlacademy.ru/profile/id116959).
 
 ---
 
