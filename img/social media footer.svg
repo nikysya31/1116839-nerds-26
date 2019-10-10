@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1443" height="217" viewBox="0 0 1443 217">
+  <g id="social_media_footer" data-name="social media footer" transform="translate(3 -2988)">
+    <image id="footer_back" data-name="footer back" width="1443" height="217" transform="translate(-3 2988)" xlink:href="social%20media%20footer-image.png"/>
+    <text id="Скидка_10_для_друзей_из_социальных_сетей." data-name="Скидка 10% для друзей из социальных сетей." transform="translate(540 3107.518)" fill="#444" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Скидка 10% для друзей из социальных сетей.</tspan></text>
+    <text id="Давайте_дружить_это_выгодно_" data-name="Давайте дружить, это выгодно!" transform="translate(539.422 3093.134)" font-size="36" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Давайте дружить, это выгодно!</tspan></text>
+    <circle id="Shape_2_copy_3" data-name="Shape 2 copy 3" cx="39.12" cy="39.12" r="39.12" transform="translate(140.54 3057.22)" fill="#e1e1e1"/>
+    <circle id="Shape_2_copy_4" data-name="Shape 2 copy 4" cx="39.12" cy="39.12" r="39.12" transform="translate(231.54 3057.22)" fill="#e1e1e1"/>
+    <circle id="Shape_2_copy_5" data-name="Shape 2 copy 5" cx="39.12" cy="39.12" r="39.12" transform="translate(321.54 3057.22)" fill="#e1e1e1"/>
+    <image id="fb-icon" width="12" height="22" transform="translate(265 3085)" xlink:href="social%20media%20footer-image2.png"/>
+    <image id="vk-icon" width="26" height="15" transform="translate(167 3089)" xlink:href="social%20media%20footer-image3.png"/>
+    <image id="insta-icon" width="21" height="21" transform="translate(350 3086)" xlink:href="social%20media%20footer-image4.png"/>
+  </g>
+</svg>

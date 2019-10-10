@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="189" viewBox="0 0 1200 189">
+  <defs>
+    <image id="image" width="43" height="43" xlink:href="footer-image4.png"/>
+  </defs>
+  <g id="footer" transform="translate(0 -973)">
+    <image id="Layer_23" data-name="Layer 23" width="1200" height="189" transform="translate(0 973)" xlink:href="footer-image.png"/>
+    <image id="Layer_37" data-name="Layer 37" width="1200" height="41" transform="translate(0 973)" opacity="0.502" xlink:href="footer-image2.png"/>
+    <text id="БАРБЕРШОП_БОРОДИНСКИЙ_АДРЕС:_Г._САНКТ-ПЕТЕРБУРГ_УЛ._Б._КОНЮШЕННАЯ_Д._19_8_КАК_НАС_НАЙТИ_ТЕЛЕФОН:_7_495_666-02-66" data-name="БАРБЕРШОП «БОРОДИНСКИЙ»
+АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+КАК НАС НАЙТИ?
+ТЕЛЕФОН: +7 (495) 666-02-66" transform="translate(131.246 1031.8)" fill="#fff" font-size="14" font-family="PTSans-NarrowBold, PT Sans" font-weight="700"><tspan x="0" y="14">БАРБЕРШОП «БОРОДИНСКИЙ»</tspan><tspan x="0" y="38">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</tspan><tspan text-decoration="underline"><tspan x="0" y="62">КАК НАС НАЙТИ?</tspan></tspan><tspan x="0" y="86">ТЕЛЕФОН: +7 (495) 666-02-66</tspan></text>
+    <text id="ДАВАЙТЕ_ДРУЖИТЬ_" data-name="ДАВАЙТЕ ДРУЖИТЬ!" transform="translate(549.124 1031.77)" fill="#fff" font-size="13.958" font-family="PTSans-NarrowBold, PT Sans" font-weight="700"><tspan x="0" y="14">ДАВАЙТЕ ДРУЖИТЬ!</tspan></text>
+    <text id="РАЗРАБОТАНО:" transform="translate(960.246 1031.8)" fill="#fff" font-size="14" font-family="PTSans-NarrowBold, PT Sans" font-weight="700"><tspan x="0" y="14">РАЗРАБОТАНО:</tspan></text>
+    <image id="Layer_12_copy_6" data-name="Layer 12 copy 6" width="140" height="43" transform="translate(933 1068)" xlink:href="footer-image3.png"/>
+    <use id="Layer_43" data-name="Layer 43" transform="translate(533 1068)" xlink:href="#image"/>
+    <use id="Layer_18_copy" data-name="Layer 18 copy" transform="translate(582 1068)" xlink:href="#image"/>
+    <use id="Layer_18_copy_2" data-name="Layer 18 copy 2" transform="translate(631 1068)" xlink:href="#image"/>
+    <image id="facebook" width="11" height="22" transform="translate(598 1079)" xlink:href="footer-image5.png"/>
+    <image id="instagram" width="20" height="20" transform="translate(644 1079)" xlink:href="footer-image6.png"/>
+    <image id="vk" width="27" height="15" transform="translate(542 1083)" xlink:href="footer-image7.png"/>
+    <text id="HTML_ACADEMY" data-name="HTML ACADEMY" transform="translate(1003.898 1095.465)" fill="#fff" font-size="14" font-family="PTSans-NarrowBold, PT Sans" font-weight="700"><tspan x="-40.187" y="0">HTML ACADEMY</tspan></text>
+  </g>
+</svg>
