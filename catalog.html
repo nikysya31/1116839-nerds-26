@@ -21,20 +21,65 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h2>Фильтр шаблонов</h2>
-            <h3>Стоимость:</h3>
-            <h3>Сетка:</h3>
-            <h3>Осебенности</h3>
-        </div>
-        <div>
-            <h3>Сортировать:</h3>
-            <ul>
-                <li>По цене</li>
-                <li>По типу</li>
-                <li>По названию</li>
-            </ul>
-        </div>
+        <form class="filter" method="GET" action="">
+            <div>
+                <h2>Фильтр шаблонов</h2>
+                <h3>Стоимость:</h3>
+                <h3>Сетка:</h3>
+                <fieldset>
+                    <legend>Сетка:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="mesh filter" id="filter-adaptive" value="adaptive" checked>
+                            <label for="filter-adaptive">Адаптивная</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="mesh filter" id="filter-fixed" value="fixed">
+                            <label for="filter-fixed">Фиксированная</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="mesh filter" id="filter-rubber" value="rubber">
+                            <label for="filter-rubber">Резиновая</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <h3>Осебенности</h3>
+                <fieldset>
+                    <legend>Особенности:</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="slider" id="slider" checked>
+                            <label for="slider">Слайдер</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="benefits block" id="benefits block">
+                            <label for="benefits block">Блок преимуществ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="news" id="news" checked>
+                            <label for="news">Новости</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="gallery" id="gallery">
+                            <label for="gallery">Галерея</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="basket" id="basket">
+                            <label for="basket">Корзина</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </div>
+            <div>
+                <h3>Сортировать:</h3>
+                <ul>
+                    <li>По цене</li>
+                    <li>По типу</li>
+                    <li>По названию</li>
+                </ul>
+            </div>
+        </form>
         <section>
 
             <h2>Каталог шаблонов</h2>
@@ -62,8 +107,25 @@
                 <p>Nerds design studio</p>
                 <ul>
                     <li>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</li>
-                    <li>тел. +7 (812) 2757575</li>
+                    <li>тел. <nobr>+7 (812) 275-75-75</nobr></li>
                     <li><a href="#">Напишите нам</a></li>
+                    <form class="appoitment-form" action="" method="POST">
+                        <p class="appoitment-item">
+                            <label for="appoitment-name">Ваше имя:</label>
+                            <input id="appoitment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+                        </p>
+                        <p class="appoitment-item">
+                            <label for="appoitment-e-mail">Ваш e-mail:</label>
+                            <input id="appoitment-e-mail" type="text" name="e-mail" value=""
+                                placeholder="email@example.com">
+                        </p>
+                        <p class="appoitment-item">
+                            <label for="appoitment-letter">Текст письма:</label>
+                            <textarea id="appoitment-letter" type="text" name="letter" value=""
+                                placeholder="В свободной форме"></textarea>
+                        </p>
+                        <button class="button" type="submit">Отправить</button>
+                    </form>
                 </ul>
             </div>
             <img src="" width="231" height="190" alt="Логотип">
