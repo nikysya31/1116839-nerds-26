@@ -23,8 +23,8 @@
     <main>
         <form class="filter" method="GET" action="">
             <div>
-                <h2>Фильтр шаблонов</h2>
-                <h3>Стоимость:</h3>
+                <h2 class="visually-hidden">Фильтр шаблонов</h2>
+                <h3 class="visually-hidden">Стоимость</h3>
                 <fieldset>
                     <legend>Стоимость:</legend>
                     <div>
@@ -37,7 +37,7 @@
                         <output name="costmax">15000</output>
                     </div>
                 </fieldset>
-                <h3>Сетка:</h3>
+                <h3 class="visually-hidden">Сетка</h3>
                 <fieldset>
                     <legend>Сетка:</legend>
                     <ul>
@@ -55,7 +55,7 @@
                         </li>
                     </ul>
                 </fieldset>
-                <h3>Осебенности</h3>
+                <h3 class="visually-hidden">Осебенности</h3>
                 <fieldset>
                     <legend>Особенности:</legend>
                     <ul>
@@ -86,15 +86,21 @@
             <div>
                 <h3>Сортировать:</h3>
                 <ul>
-                    <li>По цене</li>
-                    <li>По типу</li>
-                    <li>По названию</li>
+                    <li><a href="">По цене</a></li>
+                    <li><a href="">По типу</a></li>
+                    <li><a href="">По названию</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="visually-hidden">Порядок сортировки</h3>
+                <ul>
+                    <li class="visually-hidden">По возрастанию</li>
+                    <li class="visually-hidden">По убыванию</li>
                 </ul>
             </div>
         </form>
         <section>
-
-            <h2>Каталог шаблонов</h2>
+            <h2 class="visually-hidden">Каталог шаблонов</h2>
             <ul>
                 <li><img src="img/img-sedona.jpg.jpg" width="360" height="576" alt="Шаблон Sedona"></li>
                 <li><img src="img/img-pink.jpg.jpg" width="360" height="576" alt="Шаблон Pink"></li>
@@ -104,17 +110,17 @@
                 <li><img src="img/img-kvast.jpg.jpg" width="360" height="576" alt="Шаблон Кваст"></li>
             </ul>
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
             </ul>
             <a href="">Следующая</a>
         </section>
     </main>
     <footer>
         <section>
-            <h2>Как нас найти</h2>
-            <img src="" width="1440" height="416" alt="Карта">
+            <h2 class="visually-hidden">Как нас найти</h2>
+            <img src="img/Clip.png" width="1440" height="416" alt="Карта">
             <div>
                 <p>Nerds design studio</p>
                 <ul>
@@ -140,8 +146,8 @@
                         <button class="button" type="submit">Отправить</button>
                     </form>
                 </ul>
-            </div>
-            <img src="" width="231" height="190" alt="Логотип">
+            </div>  
+            <img src="img/nerds-logo.svg" width="231" height="190" alt="Логотип">
         </section>
         <div>
             <ul>
