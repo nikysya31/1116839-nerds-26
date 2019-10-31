@@ -10,12 +10,12 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.87;
-    color: #000000;
     text-transform: uppercase;
 }
 
 .nav-bar a {
     text-decoration: none;
+    color: #000000;
 }
 
 .slogan {
