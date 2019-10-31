@@ -25,6 +25,18 @@
             <div>
                 <h2>Фильтр шаблонов</h2>
                 <h3>Стоимость:</h3>
+                <fieldset>
+                    <legend>Стоимость:</legend>
+                    <div>
+                        <label for="cost">Стоимость</label>
+                        <input type="range" id="cost" name="cost" min="0" max="15000" multiple>
+                    </div>
+                    <div>
+                        <output name="costmin">0</output>
+
+                        <output name="costmax">15000</output>
+                    </div>
+                </fieldset>
                 <h3>Сетка:</h3>
                 <fieldset>
                     <legend>Сетка:</legend>
@@ -107,7 +119,8 @@
                 <p>Nerds design studio</p>
                 <ul>
                     <li>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</li>
-                    <li>тел. <nobr>+7 (812) 275-75-75</nobr></li>
+                    <li>тел. <nobr>+7 (812) 275-75-75</nobr>
+                    </li>
                     <li><a href="#">Напишите нам</a></li>
                     <form class="appoitment-form" action="" method="POST">
                         <p class="appoitment-item">
