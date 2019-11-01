@@ -188,6 +188,20 @@ body {
     line-height: 1;
 }
 
+.template-img::before {
+    content: "";
+    display: block;
+    width: 360px;
+    height: 40px;
+    background-image: url("../img/browser.svg");
+    background-size: 360px 40px;
+    opacity: 0.12;
+}
+
+.template-img-active::before {
+    opacity: 1;
+}
+
 .social-media {
     font-size: 0;
     display: block;
