@@ -249,6 +249,49 @@ body {
     line-height: 1;
 }
 
+.sort-type {
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.3;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #000000;
+}
+
+.sort-type:hover {
+    opacity: 0.6;
+}
+
+.sort-type:active {
+    opacity: 1;
+}
+
+.sort-order {
+    width: 0;
+    height: 0;
+    opacity: 0.3;
+    border-left: solid 5.5px transparent;
+    border-right: solid 5.5px transparent;
+}
+
+.sort-order:hover {
+    opacity: 0.6;
+}
+
+.sort-order:active {
+    opacity: 1;
+}
+
+.sort-order.desc {
+    border-top: solid 10px #000000;
+    border-bottom: 0;
+}
+
+.sort-order.asc {
+    border-bottom: solid 10px #000000;
+    border-top: 0;
+}
+
 .template-img::before {
     content: "";
     display: block;
@@ -356,16 +399,20 @@ body {
 
 .range-controls {
     position: relative;
-    margin-top: 32px;
-    background-image: url("..img/white-back.png");
+    margin-top: 52.4px;
+    width: 260.1px;
+    height: 80.1px;
+    border-radius: 3px;
+    background-color: #eeeeee;
 }
 
 .range-controls .scale {
     height: 2px;
     background: #d7dcdf;
     width: 219px;
-    height: 2px;
-    object-fit: contain;
+    position: relative;
+    top: 39px;
+    left: 20.1px;
 }
 
 .range-controls .bar {
@@ -376,7 +423,7 @@ body {
 
 .range-toggle {
     position: absolute;
-    top: -9px;
+    top: 29px;
     width: 4px;
     height: 4px;
     background: #ababab;
@@ -387,16 +434,23 @@ body {
 }
 
 .range-toggle-min {
-    left: 0;
+    left: 20.1px;
 }
 
 .range-toggle-max {
     left: 152px;
 }
 
-.price-controls label {
+.price-controls input {
+    width: 80px;
+    height: 38px;
     display: inline-block;
     font-size: 16px;
-    vertical-align: top;
+    line-height: 1.38;
+    color: #283136;
     cursor: pointer;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    border: 0;
+    text-align: center;
 }
