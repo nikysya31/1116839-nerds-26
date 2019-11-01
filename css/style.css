@@ -156,6 +156,10 @@ body {
     color: #283136;
 }
 
+.slider-2, .slider-3 {
+    display: none;
+}
+
 .services .header {
     font-size: 24px;
     font-weight: bold;
