@@ -18,6 +18,15 @@ body {
     color: #000000;
 }
 
+.nav-bar a:hover {
+    color: #fb565a;
+}
+
+.nav-bar a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
 .slogan {
     font-size: 55px;
     font-weight: 500;
@@ -47,9 +56,29 @@ body {
     color: #ffffff;
 }
 
+.btn-red:hover {
+    background-color: #e74246;
+}
+
+.btn-red:active {
+    background-color: #d7373b;
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 0 0 #c13135;
+}
+
 .btn-green {
     background-color: #00ca74;
     color: #ffffff;
+}
+
+.btn-green:hover {
+    background-color: #00bc6c;
+}
+
+.btn-green:active {
+    background-color: #00aa62;
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 0 0 #009958;
 }
 
 .btn-yellow {
@@ -57,9 +86,29 @@ body {
     color: #ffffff;
 }
 
+.btn-yellow:hover {
+    background-color: #eab534;
+}
+
+.btn-yellow:active {
+    background-color: #e5a722;
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 0 0 #ce961f;
+}
+
 .btn-grey {
     background-color: #eeeeee;
     color: #000000;
+}
+
+.btn-grey:hover {
+    background-color: #dfdfdf;
+}
+
+.btn-grey:active {
+    background-color: #d5d5d5;
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 0 0 #bfbfbf;
 }
 
 .btn-page {
@@ -198,7 +247,7 @@ body {
     opacity: 0.12;
 }
 
-.template-img-active::before {
+.template-img:hover::before {
     opacity: 1;
 }
 
@@ -211,6 +260,10 @@ body {
     background-color: #e1e1e1;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.social-media:hover {
+    background-color: #e74246;
 }
 
 .social-media-vk {
