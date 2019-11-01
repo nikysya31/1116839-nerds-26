@@ -187,3 +187,29 @@ body {
 .filter .sort {
     line-height: 1;
 }
+
+.social-media {
+    font-size: 0;
+    display: block;
+    width: 78.2px;
+    height: 78.2px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-media-vk {
+    background-image: url("../img/vk-icon.svg");
+    background-size: 26px 15px;
+}
+
+.social-media-fb {
+    background-image: url("../img/fb-icon.svg");
+    background-size: 12px 22px;
+}
+
+.social-media-ig {
+    background-image: url("../img/insta-icon.svg");
+    background-size: 21px 21px;
+}
