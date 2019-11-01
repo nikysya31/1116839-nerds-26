@@ -1,28 +1,25 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .visually-hidden {
     display: none;
 }
 
-.nav-bar {
+.nav-item {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.87;
     text-transform: uppercase;
-}
-
-.nav-bar a {
     text-decoration: none;
     color: #000000;
 }
 
-.nav-bar a:hover {
+.nav-item:hover {
     color: #fb565a;
 }
 
-.nav-bar a:active {
+.nav-item:active {
     color: #000000;
     opacity: 0.3;
 }
@@ -45,10 +42,13 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     height: 50px;
+    font-size: 16px;
+    line-height: 18px;
     border-radius: 3px;
-    display: table-cell;
-    vertical-align: middle;
+    display: inline-block;
+    padding-top: 16px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .btn-red {
@@ -140,8 +140,14 @@ body {
     width: 260px;
 }
 
+.btn-price {
+    width: 200px;
+    margin: auto;
+}
+
 .header {
     text-transform: uppercase;
+    line-height: 1.67;
 }
 
 .text {
@@ -166,10 +172,12 @@ body {
 
 .about-us .header {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .accuracy .header {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .accuracy .numbers {
@@ -177,6 +185,10 @@ body {
     font-weight: bold;
     line-height: 0.22;
     color: #000000;
+}
+
+.accuracy .text {
+    line-height: 1.13;
 }
 
 .contacts .title {
@@ -251,6 +263,56 @@ body {
     opacity: 1;
 }
 
+.template-info {
+    box-sizing: border-box;
+    padding-top: 28px;
+    width: 360px;
+    height: 231px;
+    text-align: center;
+    background-color: #eeeeee;
+    position: relative;
+    top: -231px;
+    opacity: 0;
+    margin-bottom: -231px;
+}
+
+.template-img:hover .template-info {
+    opacity: 1;
+}
+
+.template-info .header {
+    margin-top: 28.6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #000000;
+}
+
+.template-info .header:hover {
+    color: #fb565a;
+}
+
+.template-info .header:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.template-info .text {
+    margin-top: 16.4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 239px;
+    line-height: 1.13;
+    color: #666666;
+}
+
+.template-info .btn {
+    position: absolute;
+    top: 138px;
+    left: 80px;
+}
+
 .social-media {
     font-size: 0;
     display: block;
@@ -279,4 +341,62 @@ body {
 .social-media-ig {
     background-image: url("../img/insta-icon.svg");
     background-size: 21px 21px;
+}
+
+.price-controls {
+    margin-top: 32px;
+}
+
+.price-controls.min-price, .price-controls.max-price {
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: left;
+    color: #283136;
+}
+
+.range-controls {
+    position: relative;
+    margin-top: 32px;
+    background-image: url("..img/white-back.png");
+}
+
+.range-controls .scale {
+    height: 2px;
+    background: #d7dcdf;
+    width: 219px;
+    height: 2px;
+    object-fit: contain;
+}
+
+.range-controls .bar {
+    width: 152px;
+    height: 2px;
+    background: #4bd59b;
+}
+
+.range-toggle {
+    position: absolute;
+    top: -9px;
+    width: 4px;
+    height: 4px;
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+}
+
+.range-toggle-min {
+    left: 0;
+}
+
+.range-toggle-max {
+    left: 152px;
+}
+
+.price-controls label {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    cursor: pointer;
 }
