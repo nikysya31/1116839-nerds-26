@@ -1,3 +1,83 @@
+/** СЕТКА **/
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+
+.main-logo {
+    width: 160px;
+    height: 65px;
+    background-image: url("../img/nerds-logo.svg");
+}
+
+.site-navigation {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.site-navigation-item {
+    list-style-type: none;
+    margin: 0 22.5px;
+}
+
+.cart-navigation {
+    display: block;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.services-item {
+    list-style-type: none;
+    width: 300px;
+    margin: 0;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    height: 217px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 217px;
+    width: 259.2px;
+}
+
+.social-media-item {
+    list-style-type: none;
+    border-radius: 50%;
+    width: 78.2px;
+    height: 78.2px;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+    display: block;
+}
+
+.friends {
+    margin-left: 140px;
+}
+
+/** ОФОРМЛЕНИЕ **/
+
 body {
     font-family: "Roboto", "Arial", sans-serif;
 }
@@ -111,6 +191,20 @@ body {
     box-shadow: inset 0 3px 0 0 #bfbfbf;
 }
 
+.btn-nav {
+    color: #000000;
+    line-height: 1.87;
+}
+
+.btn-nav:hover {
+    color: #fb565a    ;
+}
+
+.btn-nav:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
 .btn-page {
     width: 50px;
 }
@@ -209,15 +303,17 @@ body {
     color: #666666;
 }
 
-.friendship .slogan {
+.friends .slogan {
     font-size: 36px;
     font-weight: bold;
     line-height: 1;
+    margin: 4.4px;
     color: #000000;
 }
 
-.friendship .text {
+.friends .text {
     line-height: 1.38;
+    margin: 4.4px;
     color: #444444;
 }
 
@@ -360,32 +456,17 @@ body {
     left: 80px;
 }
 
-.social-media {
-    font-size: 0;
-    display: block;
-    width: 78.2px;
-    height: 78.2px;
-    border-radius: 50%;
-    background-color: #e1e1e1;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.social-media:hover {
-    background-color: #e74246;
-}
-
-.social-media-vk {
+.vk-icon {
     background-image: url("../img/vk-icon.svg");
-    background-size: 26px 15px;
+    background-size: 26px 15px; 
 }
 
-.social-media-fb {
+.fb-icon {
     background-image: url("../img/fb-icon.svg");
     background-size: 12px 22px;
 }
 
-.social-media-ig {
+.ig-icon {
     background-image: url("../img/insta-icon.svg");
     background-size: 21px 21px;
 }
