@@ -10,152 +10,124 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a>
-        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Нердс">
-      </a>
-      <ul>
-        <li><a class="nav-item" href="index.html">Студия</a></li>
-        <li><a class="nav-item" href="#">Клиенты</a></li>
-        <li><a class="nav-item" href="catalog.html">Магазин</a></li>
-        <li><a class="nav-item" href="#">Контакты</a></li>
+
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <a class="main-logo" href=""></a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item"><a class="btn btn-nav" href="index.html">Студия</a></li>
+          <li class="site-navigation-item"><a class="btn btn-nav" href="#">Клиенты</a></li>
+          <li class="site-navigation-item"><a class="btn btn-nav" href="catalog.html">Магазин</a></li>
+          <li class="site-navigation-item"><a class="btn btn-nav" href="#">Контакты</a></li>
+        </ul>
+        <a class="cart-navigation btn btn-nav" href="#"><img src="img/cart-icon.svg"> Корзина</a>
+        </a>
+      </nav>
+      <ul class="slider">
+        <li class="slider-item">
+          <div class="slider-item-text">
+            <h2 class="slogan">Долго, дорого, скурпулезно.</h2>
+            <p class="sub-slogan">Математически выверенный дизайн для вашего сайта или мобильного
+              приложения</p>
+            <a href="#" class="btn btn-red btn-details">Узнать больше</a>
+          </div>
+          <img src="img/slide1.png" width="760" height="431">
+        </li>
+        <li class="slider-item">
+          <div class="slider-item-text">
+            <h2 class="slogan">Любим математику как никто другой</h2>
+            <p class="sub-slogan">Никакого креатива, только математические формулы для расчета
+              идеальных пропорций.</p>
+            <a href="#" class="btn btn-red btn-details">Узнать больше</a>
+          </div>
+          <img src="img/slide2.png" width="760" height="431">
+        </li>
+        <li class="slider-item">
+          <div class="slider-item-text">
+            <h2 class="slogan">Только ночь, только хардкор</h2>
+            <p class="sub-slogan">Работать днем, как все? Мы против этого. Ближе к полуночи работа
+              только начинается.</p>
+            <a href="#" class="btn btn-red btn-details">Узнать больше</a>
+            <img src="img/slide3.png" width="760" height="431">
+          </div>
+        </li>
       </ul>
-      <a class="nav-item" href="#"><img src="img/cart-icon.svg">Корзина</a>
-    </nav>
-    <section class="slider">
-      <div class="slider-1">
-        <h2 class="slogan">Долго, дорого, скурпулезно.</h2>
-        <p class="sub-slogan">Математически выверенный дизайн для вашего сайта или мобильного
-          приложения</p>
-        <a href="#" class="btn btn-red btn-details">Узнать больше</a>
-        <img src="img/slide1.png" width="760" height="431">
-      </div>
-      <div class="slider-2">
-        <h2 class="slogan">Любим математику как никто другой</h2>
-        <p class="sub-slogan">Никакого креатива, только математические формулы для расчета
-          идеальных пропорций.</p>
-        <a href="#" class="btn btn-red btn-details">Узнать больше</a>
-        <img src="img/slide2.png" width="760" height="431">
-      </div>
-      <div class="slider-3">
-        <h2 class="slogan">Только ночь, только хардкор</h2>
-        <p class="sub-slogan">Работать днем, как все? Мы против этого. Ближе к полуночи работа
-          только начинается.</p>
-        <a href="#" class="btn btn-red btn-details">Узнать больше</a>
-        <img src="img/slide3.png" width="760" height="431">
-      </div>
-    </section>
+    </div>
   </header>
+
   <main>
+
     <h1 class="visually-hidden">Студия Нёрдс</h1>
-    <section class="services">
+
+    <div class="container">
+
       <h2 class="visually-hidden">Услуги</h2>
-      <ul>
-        <li>
+
+      <ul class="services">
+        <li class="services-item">
           <img src="img/illustration-1.png" width="300" height="146" alt="Веб-сайты">
           <h3 class="header">Веб-сайты</h3>
-          <p class="text">Мир никогда не будет прежним после того как увидит ваш сайт</p>
+          <p class="text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
           <a href="#" class="btn btn-red btn-order">Заказать</a>
         </li>
-        <li>
+        <li class="services-item">
           <img src="img/illustration-2.png" width="300" height="146" alt="Приложения">
           <h3 class="header">Приложения</h3>
           <p class="text">Покорите топ-10 приложений в AppStore и Google Play</p>
           <a href="#" class="btn btn-green btn-order">Заказать</a>
         </li>
-        <li>
+        <li class="services-item">
           <img src="img/illustration-3.png" width="300" height="146" alt="Презентации">
           <h3 class="header">Презентации</h3>
-          <p class="text">Вы даже не подозреваете насколько вы изумительны</p>
+          <p class="text">Вы даже не подозреваете, насколько вы изумительны!</p>
           <a href="#" class="btn btn-yellow btn-order">Заказать</a>
         </li>
       </ul>
-    </section>
-    <section class="about-us">
-      <h2 class="visually-hidden">О нас</h2>
-      <h3 class="lead">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
-      <p class="text">Исповедуем принципы минимализма и чистоты. Ставим математический
-        расчет превыше креатива. Работаем не покладаю рук, как роботы.</p>
-      <h4 class="header">Выполняем заказы на разработку:</h4>
-      <ul class="text">
-        <li>Веб-сайтов любой сложности</li>
-        <li>Мобильных приложений для IOS и Android</li>
-        <li>Слайдшоу и видео для корпоративных презентаций</li>
-      </ul>
-    </section>
-    <section class="accuracy">
-      <h2 class="visually-hidden">Точность</h2>
-      <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип">
-      <h4 class="header">С 2004 года мы любим точность во всем:</h4>
-      <ul>
-        <li>
-          <h5 class="numbers">146%</h5>
-          <p class="text">Уровень самоотдачи</p>
-        </li>
-        <li>
-          <h5 class="numbers">100%</h5>
-          <p class="text">Соблюдение сроков</p>
-        </li>
-        <li>
-          <h5 class="numbers">50%</h5>
-          <p class="text">Минимальная предоплата</p>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2 class="visually-hidden">Наши клиенты</h2>
-      <ul>
-        <li><img src="img/logo-1.png.png" width="199" height="68" alt="Html Academy"></li>
-        <li><img src="img/logo-2.png.png" width="209" height="90" alt="Barbershop Borodinsky"></li>
-        <li><img src="img/logo-3.png.png" width="185" height="52" alt="Pink"></li>
-        <li><img src="img/logo-4.png.png" width="173" height="84" alt="Mishka"></li>
-      </ul>
-    </section>
+    </div>
   </main>
-  <footer>
+
+  <div class="container">
     <section class="contacts">
       <h2 class="visually-hidden">Как нас найти</h2>
-      <img src="img/Clip.png" width="1440" height="416" alt="Карта">
-      <div>
-        <p class="title">Nёrds design studio</p>
-        <ul>
-          <li class="address">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</li>
-          <li class="phone">тел. <nobr>+7 (812) 275-75-75</nobr>
-          </li>
-          <li><a href="#" class="btn btn-red btn-write-us">Напишите нам</a></li>
-          <form class="appoitment-form" action="" method="POST">
-            <p class="appoitment-item">
-              <label for="appoitment-name">Ваше имя:</label>
-              <input id="appoitment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+      <div class="container">
+        <div class="address-box">
+          <h3 class="title">Nёrds design studio</h3>
+          <ul>
+            <li class="address">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</li>
+            <li class="phone">тел. +7 (812) 275-75-75</li>
+            <li><a href="#" class="btn btn-red btn-write-us">Напишите нам</a></li>
+          </ul>
+          <form class="contant-form" action="" method="POST">
+            <p class="contant-item">
+              <label for="contant-name">Ваше имя:</label>
+              <input id="contant-name" type="text" name="name" value="" placeholder="Имя Фамилия">
             </p>
-            <p class="appoitment-item">
-              <label for="appoitment-e-mail">Ваш e-mail:</label>
-              <input id="appoitment-e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
+            <p class="contant-item">
+              <label for="contant-e-mail">Ваш e-mail:</label>
+              <input id="contant-e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
             </p>
-            <p class="appoitment-item">
-              <label for="appoitment-letter">Текст письма:</label>
-              <textarea id="appoitment-letter" type="text" name="letter" value=""
+            <p class="contant-item">
+              <label for="contant-letter">Текст письма:</label>
+              <textarea id="contant-letter" type="text" name="letter" value=""
                 placeholder="В свободной форме"></textarea>
             </p>
             <button class="btn btn-red btn-submit" type="submit">Отправить</button>
           </form>
-        </ul>
+        </div>
       </div>
-      <img src="img/nerds-logo.svg" width="231" height="190" alt="Логотип">
     </section>
-    <ul>
-      <li><a class="social-media social-media-vk" href="#">Вконтакте</a></li>
-      <li><a class="social-media social-media-fb" href="#">Фейсбук</a></li>
-      <li><a class="social-media social-media-ig" href="#">Инстаграм</a></li>
-    </ul>
-    <div class="friendship">
-      <h5 class="slogan">Давайте дружить, это выгодно!</h5>
-      <p class="text">Скидка 10 % для друзей из социальных сетей. </p>
-    </div>
-  </footer>
-
+    <footer class="main-footer">
+      <section class="social-media">
+        <a href="" class="social-media-item vk-icon">Вконтакте</a>
+        <a href="" class="social-media-item fb-icon">Фейсбук</a>
+        <a href="" class="social-media-item ig-icon">Инстаграм</a>
+      </section>
+      <section class="friends">
+        <h5 class="slogan">Давайте дружить, это выгодно!</h5>
+        <p class="text">Скидка 10 % для друзей из социальных сетей.</p>
+      </section>
+    </footer>
+  </div>
 
 </body>
-
-</html>
