@@ -290,12 +290,10 @@ a {
     height: 416px;
     margin-top: 60px;
     padding-top: 54px;
-    padding-left: 140px;
     box-sizing: border-box;
-
     background-image: url("../img/map-marker.png.png"), url("../img/Clip.png");
     background-repeat: no-repeat;
-    background-position: 675px 75px, center;
+    background-position: 735px 75px, center;
     background-size: 231px 190px, cover;
 }
 
@@ -305,7 +303,6 @@ a {
     height: 308px;
     padding: 50px;
     box-sizing: border-box;
-
     background-color: #ffffff;
 }
 
