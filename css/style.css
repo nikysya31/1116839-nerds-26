@@ -140,6 +140,113 @@ a {
     margin-top: auto;
 }
 
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    height: 525px;
+    padding-top: 40px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.about-us .common {
+    width: 665px;
+    margin-top: 24.6px;
+}
+
+.about-us .text {
+    margin-top: 28.4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.accuracy {
+    width: 360px;
+}
+
+.accuracy .numbers {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.numbers h5 {
+    margin-top: 35.2px;
+    margin-bottom: 10.1px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 10.1px;
+    color: #000000;
+}
+
+.numbers p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #283136;
+}
+
+.accuracy .header {
+    margin-top: 36.3px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.common ul {
+    list-style-image: url("../img/list-dash.png");
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: border-box;
+    height: 180px;
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    padding-top: 46px;
+    padding-bottom: 44px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.clients-logo {
+    display: flex;
+    width: 209px;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clients-logo img {
+    opacity: 0.2;
+}
+
+.clients-logo img:hover {
+    opacity: 1;
+}
+
+.clients-logo img:active {
+    opacity: 0.1;
+}
+
+.clients-logo:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 52px;
+    background-color: #eeeeee;
+    position: relative;
+    left: 44px;
+    border-left: 2px solid #eeeeee;
+    opacity: 1;
+}
+
 .main-footer {
     display: flex;
     align-items: center;
@@ -596,6 +703,7 @@ a {
 }
 
 .about-us .lead {
+    margin: 0;
     font-size: 45px;
     font-weight: 500;
     line-height: 1;
@@ -605,11 +713,7 @@ a {
 .about-us .header {
     font-size: 16px;
     line-height: 1.5;
-}
-
-.accuracy .header {
-    font-size: 16px;
-    line-height: 1.5;
+    margin-bottom: 0;
 }
 
 .accuracy .numbers {
