@@ -16,12 +16,12 @@
       <nav class="main-navigation">
         <a class="main-logo" href=""></a>
         <ul class="site-navigation">
-          <li class="site-navigation-item"><a class="btn btn-nav" href="index.html">Студия</a></li>
+          <li class="site-navigation-item"><a class="btn btn-nav" href="#">Студия</a></li>
           <li class="site-navigation-item"><a class="btn btn-nav" href="#">Клиенты</a></li>
-          <li class="site-navigation-item"><a class="btn btn-nav" href="catalog.html">Магазин</a></li>
+          <li class="site-navigation-item"><a class="btn btn-nav btn-nav-active" href="catalog.html">Магазин</a></li>
           <li class="site-navigation-item"><a class="btn btn-nav" href="#">Контакты</a></li>
         </ul>
-        <a class="cart-navigation btn btn-nav" href="#"><img src="img/cart-icon.svg"> Корзина</a>
+        <a class="cart-navigation btn btn-nav" href="#">Корзина</a>
       </nav>
     </div>
 
@@ -55,16 +55,27 @@
         <legend class="filter-mesh-header">Сетка:</legend>
         <ul class="filter-mesh-items">
           <li>
-            <input type="radio" name="mesh" id="filter-adaptive" value="adaptive" checked>
-            <label for="filter-adaptive">Адаптивная</label>
+            <label>
+              <input class="filter-mesh-radio visually-hidden" type="radio" name="mesh" id="filter-adaptive"
+                value="adaptive" checked>
+              <span></span>
+              Адаптивная
+            </label>
           </li>
           <li>
-            <input type="radio" name="mesh" id="filter-fixed" value="fixed">
-            <label for="filter-fixed">Фиксированная</label>
+            <label>
+              <input class="filter-mesh-radio visually-hidden" type="radio" name="mesh" id="filter-fixed" value="fixed">
+              <span></span>
+              Фиксированная
+            </label>
           </li>
           <li>
-            <input type="radio" name="mesh" id="filter-rubber" value="rubber">
-            <label for="filter-rubber">Резиновая</label>
+            <label>
+              <input class="filter-mesh-radio visually-hidden" type="radio" name="mesh" id="filter-rubber"
+                value="rubber">
+              <span></span>
+              Резиновая
+            </label>
           </li>
         </ul>
       </fieldset>
@@ -72,24 +83,41 @@
         <legend class="filter-benefits-header">Особенности:</legend>
         <ul class="filter-benefits-items">
           <li>
-            <input type="checkbox" name="slider" id="slider" checked>
-            <label for="slider">Слайдер</label>
+            <label>
+              <input class="filter-benefits-checkbox  visually-hidden" type="checkbox" name="slider" id="slider"
+                checked>
+              <span></span>
+              Слайдер
+            </label>
           </li>
           <li>
-            <input type="checkbox" name="benefits block" id="benefits block">
-            <label for="benefits block">Блок преимуществ</label>
+            <label>
+              <input class="filter-benefits-checkbox visually-hidden" type="checkbox" name="benefits-block"
+                id="benefits-block">
+              <span></span>
+              Блок преимуществ
+            </label>
           </li>
           <li>
-            <input type="checkbox" name="news" id="news" checked>
-            <label for="news">Новости</label>
+            <label>
+              <input class="filter-benefits-checkbox visually-hidden" type="checkbox" name="news" id="news" checked>
+              <span></span>
+              Новости
+            </label>
           </li>
           <li>
-            <input type="checkbox" name="gallery" id="gallery">
-            <label for="gallery">Галерея</label>
+            <label>
+              <input class="filter-benefits-checkbox visually-hidden" type="checkbox" name="gallery" id="gallery">
+              <span></span>
+              Галерея
+            </label>
           </li>
           <li>
-            <input type="checkbox" name="basket" id="basket">
-            <label for="basket">Корзина</label>
+            <label>
+              <input class="filter-benefits-checkbox visually-hidden" type="checkbox" name="basket" id="basket">
+              <span></span>
+              Корзина
+            </label>
           </li>
         </ul>
       </fieldset>
