@@ -241,11 +241,23 @@ a {
 }
 
 .common ul {
-    list-style-image: url("../img/list-dash.png");
+    list-style: none;
+    padding: 0;
 }
 
 .common li {
+    display: flex;
+    align-items: center;
     margin-top: 20px;
+}
+
+.common li::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    margin-right: 40px;
+    background-color: #fb565a;
 }
 
 .clients {
