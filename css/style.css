@@ -558,6 +558,7 @@ a {
 }
 
 .address-box {
+    position: relative;
     display: block;
     width: 319px;
     height: 308px;
@@ -566,12 +567,17 @@ a {
     background-color: #ffffff;
 }
 
-.address-box li {
-    list-style-type: none;
+.address-box .title {
+    margin: 0;
+    padding: 0;
 }
 
-.address-box ul {
+.address-box .btn {
+    box-sizing: border-box;
     padding: 0;
+    border: none;
+    position: absolute;
+    bottom: 47px;
 }
 
 /** ОФОРМЛЕНИЕ **/
@@ -777,7 +783,7 @@ a {
 .contacts .title {
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.67;
+    line-height: 30px;
     color: #000000;
     text-transform: uppercase;
 }
@@ -804,14 +810,6 @@ a {
 
 .contant-form {
     display: none;
-}
-
-.title {
-    font-size: 55px;
-    font-weight: 500;
-    line-height: 1;
-    text-align: center;
-    color: #000000;
 }
 
 .filter .header {
