@@ -365,8 +365,7 @@ a {
     height: 133px;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
+    padding-top: 56.6px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -388,6 +387,12 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 14px;
+    width: 100%;
+}
+
+.price-controls label {
+    display: block;
+    margin: 0;
 }
 
 .price-controls input {
@@ -402,6 +407,7 @@ a {
     border-radius: 3px;
     border: 0;
     text-align: center;
+    margin-left: 12px;
 }
 
 .filter-mesh-header {
