@@ -56,6 +56,14 @@ a {
     background-image: url("../img/nerds-logo.svg");
 }
 
+.main-logo:hover {
+    opacity: 0.8;
+}
+
+.main-logo:active {
+    opacity: 0.3;
+}
+
 .site-navigation {
     margin: 0;
     display: flex;
@@ -66,10 +74,16 @@ a {
 .site-navigation-item {
     list-style-type: none;
     margin: 0 22.5px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 .cart-navigation {
     display: block;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 .cart-navigation::before {
@@ -607,9 +621,6 @@ a {
 }
 
 .address-box .btn {
-    box-sizing: border-box;
-    padding: 0;
-    border: none;
     position: absolute;
     bottom: 47px;
 }
@@ -645,9 +656,15 @@ a {
     line-height: 18px;
     border-radius: 3px;
     display: inline-block;
-    padding-top: 16px;
+    padding: 0;
+    margin: 0;
+    border: none;
     text-align: center;
     box-sizing: border-box;
+}
+
+a.btn {
+    padding-top: 16px;
 }
 
 .btn-red {
@@ -842,6 +859,7 @@ a {
 }
 
 .contact-form {
+    /*display: block;*/
     display: none;
     position: absolute;
     bottom: -67px;
