@@ -714,8 +714,7 @@ a {
 }
 
 .btn-nav:active {
-    color: #000000;
-    opacity: 0.3;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .btn-nav-active {
@@ -749,7 +748,7 @@ a {
     width: 219px;
 }
 
-.btn-filter {
+.btn-filter, .btn-submit {
     width: 260px;
 }
 
@@ -836,8 +835,108 @@ a {
     color: #444444;
 }
 
-.contant-form {
+.contact-form {
     display: none;
+    position: absolute;
+    bottom: -67px;
+    left: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-left: 101px;
+    width: 960px;
+    height: 590px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px #000101;
+}
+
+.contact-form h2 {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form-close {
+    font-size: 0;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 21px;
+    height: 21px;
+    background-color: transparent;
+    background-image: url("../img/close-cross.svg");
+    opacity: 0.3;
+    margin-left: 441px;
+    cursor: pointer;
+}
+
+.contact-form-close:hover {
+    opacity: 1;
+}
+
+.contact-form-close:active {
+    opacity: 0.1;
+}
+
+.contact-form .contact-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 760px;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.contact-item {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.contact-item label {
+    font-weight: bold;
+}
+
+.contact-item input[type="text"], .contact-item textarea {
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 13px;
+    margin-bottom: 36px;
+    padding: 0;
+    padding-left: 14px;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.contact-item input[type="text"]:hover, .contact-item textarea:hover {
+    border-color: #b4b9bb;
+}
+
+.contact-item input[type="text"]:focus, .contact-item textarea:focus {
+    border-color: #000000;
+}
+
+.contact-item input[type="text"]:invalid, .contact-item textarea:invalid {
+    border-color: #e74246;
+}
+
+.contact-item input {
+    width: 360px;
+    height: 50px;
+}
+
+.contact-item textarea {
+    width: 760px;
+    height: 118px;
+    padding-top: 14px;
 }
 
 .filter .header {
